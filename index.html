@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A9K71</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="floating-elements">
+        <div class="bubble"></div><div class="bubble"></div><div class="bubble"></div><div class="flower"></div><div class="flower"></div>
+    </div>
+
+    <div class="audio-player">
+        <audio id="bg-music" loop><source src="p.mp3" type="audio/mpeg"></audio>
+        <button id="play-btn"><i class="fas fa-play"></i></button>
+        <div class="song-info">Nhạc</div>
+    </div>
+
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo-link"><h1 class="logo"><span>A9k71</span></h1></a>
+            <nav>
+                <ul class="nav-links">
+                    <li class="active-nav"><a href="#home">Trang chủ</a></li>
+                    <li><a href="#about">A9K71</a></li>
+                    <li><a href="album.html">Album</a></li>
+                    <li><a href="#videos">Video</a></li>
+                    <li><a href="#members">Thành viên</a></li>
+                    <li><a href="#teacher">Giáo viên</a></li>
+                    <li><a href="#creator">Tác giả</a></li>
+                    <li><a href="#contact">Liên hệ</a></li>
+                </ul>
+                <div class="mobile-menu-btn"><i class="fas fa-bars"></i></div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="mobile-menu">
+        <span class="close-menu"><i class="fas fa-times"></i></span>
+        <ul>
+            <li><a href="#home">Trang chủ</a></li>
+            <li><a href="#about">A9k71</a></li>
+            <li><a href="album.html">Album</a></li>
+            <li><a href="#videos">Video</a></li>
+            <li><a href="#members">Thành viên</a></li>
+            <li><a href="#teacher">Giáo viên</a></li>
+            <li><a href="#creator">Tác giả</a></li>
+            <li><a href="#contact">Liên hệ</a></li>
+        </ul>
+    </div>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h2>Chào mừng đến với <span>A9K71</span></h2>
+                    <p>Nơi lưu giữ những kỷ niệm đẹp nhất tuổi học trò</p>
+                    <a href="#about" class="cta-button">BẮT ĐẦU</a>
+                </div>
+                <div class="hero-image"><div class="image-frame"><img src="a1.jpg" alt="Lớp 12A9"></div></div>
+            </div>
+        </section>
+
+        <section id="about" class="about fade-in">
+            <div class="container">
+                <h2 class="section-title">Về <span>chúng tôi</span></h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>A9K71 - Một tập, năng động và đầy sáng tạo. cùng nhau trải qua những năm tháng đẹp nhất của tuổi học trò với biết bao kỷ niệm vui buồn.</p>
+                        <p>Từ những ngày đầu bỡ ngỡ đến khi trở thành những người bạn thân thiết, mỗi khoảnh khắc đều đáng trân trọng và ghi nhớ.</p>
+                        <div class="class-stats">
+                            <div class="stat-item"><div class="stat-number">45</div><div class="stat-label">Thành viên</div></div>
+                            <div class="stat-item"><div class="stat-number">3</div><div class="stat-label">Năm học</div></div>
+                            <div class="stat-item"><div class="stat-number">99+</div><div class="stat-label">Kỷ niệm</div></div>
+                        </div>
+                    </div>
+                    <div class="about-image"><div class="rotating-frame"><img src="a3.jpg" alt="Lớp 12A9"></div></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="gallery fade-in">
+            <div class="container">
+                <h2 class="section-title">Khoảnh khắc <span>tiêu biểu</span></h2>
+                <p class="section-subtitle">Một vài kỷ niệm đẹp nhất trong hành trình 3 năm</p>
+                <div class="highlight-gallery">
+                    <a href="a1.jpg" class="gallery-item item-1" data-src="a1.jpg"><img src="a1.jpg" alt="Ảnh tiêu biểu 1"><div class="gallery-overlay"><h3>Ảnh Tập Thể</h3></div></a>
+                    <a href="a4.jpg" class="gallery-item item-2" data-src="a4.jpg"><img src="a4.jpg" alt="Ảnh tiêu biểu 2"><div class="gallery-overlay"><h4>Ngoại khóa</h4></div></a>
+                    <a href="a5.jpg" class="gallery-item item-3" data-src="a5.jpg"><img src="a5.jpg" alt="Ảnh tiêu biểu 3"><div class="gallery-overlay"><h4>Học tập</h4></div></a>
+                    <a href="a6.jpg" class="gallery-item item-4" data-src="a6.jpg"><img src="a6.jpg" alt="Ảnh tiêu biểu 4"><div class="gallery-overlay"><h4>Tốt nghiệp</h4></div></a>
+                    <a href="a0.jpg" class="gallery-item item-5" data-src="a0.jpg"><img src="a0.jpg" alt="Ảnh tiêu biểu 5"><div class="gallery-overlay"><h4>Dã ngoại</h4></div></a>
+                    
+                </div>
+                <div class="view-all-btn-container"><a href="album.html" class="cta-button">Xem Toàn Bộ Album &rarr;</a></div>
+            </div>
+        </section>
+
+        <section id="videos" class="videos fade-in">
+            <div class="container">
+                <h2 class="section-title">Video <span>Kỷ Niệm</span></h2>
+                <p class="section-subtitle">Đang Trong Quá Trình Cập Nhật</p>
+                <div class="video-grid">
+                    <div class="video-item">
+                        <div class="video-wrapper"><video controls poster="jank5.mp4"><source src="jack5.mp4" type="video/mp4">Trình duyệt của bạn không hỗ trợ thẻ video.</video></div>
+                        <h3 class="video-title">Đang Trong Quá Trình Cập Nhật</h3>
+                    </div>
+                    <div class="video-item">
+                        <div class="video-wrapper"><video controls poster="12A9 .mp4"><source src="12A9 .mp4" type="video/mp4">Trình duyệt của bạn không hỗ trợ thẻ video.</video></div>
+                        <h3 class="video-title">Đang Trong Quá Trình Cập Nhật</h3>
+                    </div>
+                    <div class="video-item">
+                        <div class="video-wrapper"><video controls poster="jank5.mp4"><source src="jack5.mp4" type="video/mp4">Trình duyệt của bạn không hỗ trợ thẻ video.</video></div>
+                        <h3 class="video-title">Đang Trong Quá Trình Cập Nhật</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="members" class="members fade-in">
+            <div class="container">
+                <h2 class="section-title">Thành <span>viên</span></h2>
+                <p class="section-subtitle">Những gương mặt thân quen của lớp</p>
+                <div class="members-grid">
+                    <div class="member-card"><div class="member-image"><img src="https://via.placeholder.com/250x250/FF9BB3/FFFFFF?text=Member" alt="Thành viên"></div><div class="member-info"><h3>Đang Trong Quá Trình Cập Nhật</h3><p>Đang Trong Quá Trình Cập Nhật</p><div class="social-links"><a href="#"><i class="fab fa-facebook"></i></a><a href="#"><i class="fab fa-instagram"></i></a></div></div></div>
+                    <div class="member-card"><div class="member-image"><img src="https://via.placeholder.com/250x250/C1E7FF/3A7BBD?text=Member" alt="Thành viên"></div><div class="member-info"><h3>Đang Trong Quá Trình Cập Nhật</h3><p>Đang Trong Quá Trình Cập Nhật</p><div class="social-links"><a href="#"><i class="fab fa-facebook"></i></a><a href="#"><i class="fab fa-instagram"></i></a></div></div></div>
+                </div>
+                
+            </div>
+        </section>
+
+        <section id="teacher" class="teacher fade-in">
+            <div class="container">
+                <h2 class="section-title">Giáo Viên <span>Chủ Nhiệm</span></h2>
+                <p class="section-subtitle">Người lái đò thầm lặng của tập thể 12A9</p>
+                <div class="teacher-content">
+                    <div class="teacher-avatar"><img src="colinh.jpg" alt="Cô Giáo Lê Thị Ngọc Linh"></div>
+                    <div class="teacher-info">
+                        <h3>Cô Giáo Lê Thị Ngọc Linh</h3>
+                        <p class="teacher-role">Người đã dìu dắt và đồng hành cùng 12A9</p>
+                        <blockquote>" người mẹ hiền thứ hai, người đã dạy dỗ chúng em không chỉ kiến thức mà còn cả những bài học làm người quý giá. Những kỷ niệm về cô và mái nhà A9 sẽ mãi là hành trang quý báu trên con đường tương lai của mỗi chúng em."</blockquote>
+                        <p class="signature">- Người LÁi Đò A9K71 -</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="creator" class="creator fade-in">
+            <div class="container">
+                <h2 class="section-title">Tác giả<span>Website</span></h2>
+                <div class="creator-content">
+                    <div class="creator-avatar"><img src="add.png" alt="Người sáng tạo"></div>
+                    <div class="creator-info">
+                        <h3>Phúc Zion</h3>
+                        <p class="creator-role">Lưu Giữ Mọi Kỷ Niệm</p>
+                        <p class="creator-bio">"Trang web này như một món quà lưu giữ lại những kỷ niệm đẹp nhất của chúng ta."</p>
+                        <div class="social-links"><a href="#"><i class="fab fa-facebook"></i></a><a href="#"><i class="fab fa-github"></i></a><a href="#"><i class="fab fa-linkedin"></i></a></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact fade-in">
+            <div class="container">
+                <h2 class="section-title">Liên <span>hệ</span></h2>
+                <p class="section-subtitle">Giữ liên lạc với chúng tôi</p>
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <div class="info-item"><i class="fas fa-envelope"></i><p>nguyenphuczip3@gmail.com</p></div>
+                        <div class="info-item"><i class="fas fa-phone"></i><p>03328233792</p></div>
+                        <div class="info-item"><i class="fas fa-map-marker-alt"></i><p>Đang Trong Quá Trình Cập Nhật</p></div>
+                        <div class="social-media"><a href="#"><i class="fab fa-facebook"></i></a><a href="#"><i class="fab fa-instagram"></i></a><a href="#"><i class="fab fa-youtube"></i></a></div>
+                    </div>
+                    <form class="contact-form">
+                        <div class="form-group"><input type="text" placeholder="Họ và tên" required></div>
+                        <div class="form-group"><input type="email" placeholder="Email" required></div>
+                        <div class="form-group"><textarea placeholder="Lời nhắn" rows="5" required></textarea></div>
+                        <button type="submit" class="submit-btn">Gửi tin nhắn</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo"><h2>Khối <span>A9K71</span></h2><p>Mãi mãi một tình bạn đẹp</p></div>
+                <div class="footer-links">
+                    <h3>Liên kết</h3>
+                    <ul>
+                        <li><a href="#home">Trang chủ</a></li><li><a href="album.html">Album</a></li><li><a href="#contact">Liên hệ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h3>Đăng ký nhận tin</h3>
+                    <form><input type="email" placeholder="Email của bạn"><button type="submit"><i class="fas fa-paper-plane"></i></button></form>
+                </div>
+            </div>
+            <div class="footer-bottom"><p>Phúc Zion.</p></div>
+        </div>
+    </footer>
+
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
